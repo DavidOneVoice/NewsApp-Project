@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 50%;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    width: 100%;
+    list-style: none;
+    margin-top: 0.5em;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all;
+    transition-duration: 0.4s;
+}
+nav a:hover{
+    color: white;
+    cursor: pointer;
+}
+.current{
+    color: white;
+    transition: all;
+    transition-duration: 0.4s;
+}
+.current:hover{
+    color: rgb(233, 216, 120);
+    cursor: pointer;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    color: white;
+    background-color: rgb(2, 2, 128);
+}
+button[type=submit]{
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(2, 2, 128);
+    padding: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em ;
+    transition: all;
+    transition-duration: 0.4s;
+}
+button[type=submit]:hover{
+    background-color: white;
+    color:  rgb(2, 2, 128);
+    cursor: pointer;
+}
+input[type=search]{
+    height: 2.5em;
+    border-radius: 5px;
+    border: none;
+    color: rgb(2, 2, 128);
+    padding-left: 1em;
+}
+#login{
+    width: 100%;
+    background-color: rgb(194, 194, 252);
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    margin-bottom: 1em;
+}
+#signup{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(2, 2, 128);
+    padding-left: 1em;
+    padding-right: 1em;
+    transition: all;
+    transition-duration: 0.4s; 
+    height: 2em;
+}
+#signup:hover{
+    background-color: rgb(194, 194, 252);
+    color:  rgb(2, 2, 128);
+    cursor: pointer;
+    border: 1px solid rgb(2, 2, 128);
+}
+#signin{
+    border: 1px solid rgb(2, 2, 128);
+    border-radius: 10px;
+    color: rgb(2, 2, 128);
+    background-color: rgb(194, 194, 252);
+    color:  rgb(2, 2, 128);
+    cursor: pointer;
+    border: 1px solid rgb(2, 2, 128);
+    padding-left: 1em;
+    padding-right: 1em;
+    transition: all;
+    transition-duration: 0.4s; 
+    margin-left: 2em;
+    margin-right: 2em;
+    height: 2em;
+
+}
+#signin:hover{
+    background-color:rgb(2, 2, 128);
+    color:  white;
+    cursor: pointer;
+    border: 1px solid rgb(235, 216, 108);
+}
+#first{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+.blognews{
+    width: 32%;
+    height: auto;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.name{
+    font-size: 0.7em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -1.5em;
+}
+#news1{
+    width: 100%;
+    height: 70%;
+    background: url(../images/news1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#news2{
+    width: 100%;
+    height: 70%;
+    background: url(../images/news2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#news3{
+    width: 100%;
+    height: 70%;
+    background: url(../images/news3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#news4{
+    width: 100%;
+    height: 70%;
+    background: url(../images/news4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#news5{
+    width: 100%;
+    height: 70%;
+    background: url(../images/news5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#news6{
+    width: 100%;
+    height: 70%;
+    background: url(../images/news6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.blogstory{
+    font-size: 0.8em;
+    font-weight: 700;
+}
+#blogface1{
+    width: 3em;
+    height: 3em;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: url(../images/user1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#blogface2{
+    width: 3em;
+    height: 3em;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: url(../images/user2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#blogface3{
+    width: 3em;
+    height: 3em;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: url(../images/user3);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#blogface4{
+    width: 3em;
+    height: 3em;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: url(../images/user4);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#blogface5{
+    width: 3em;
+    height: 3em;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: url(../images/user5);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#blogface6{
+    width: 3em;
+    height: 3em;
+    border: 1px solid black;
+    border-radius: 50%;
+    background: url(../images/user6);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blognews h6{
+    margin-top: 0.3em;
+}
+#pagebreaker{
+    width: 100%;
+    height: 0.5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-radius: 10px;
+    background-color: rgb(2, 2, 128);
+}
+#second{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 50vh;   
+    margin-bottom: 5em;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 24%;
+    height: 100%;
+}
+.story p{
+    font-size: 0.7em;
+}
+#story1{
+    height: 60%;
+    width: 100%;
+    background: url(../images/story1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#story2{
+    height: 60%;
+    width: 100%;
+    background: url(../images/story2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#story3{
+    height: 60%;
+    width: 100%;
+    background: url(../images/story3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+#story4{
+    height: 60%;
+    width: 100%;
+    background: url(../images/story4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    nav{
+        width: 100%;
+    }
+    .blognews{
+        height: 80vh;
+    }
+    .profile h4{
+        font-size: 1.2em;
+    }
+    .profile h6{
+        font-size: 0.8em;
+    }
+    #first{
+        margin-bottom: 28em;
+        height: 100vh;
+    }
+    #second{
+        height: 100vh;
+    }
+    #search{
+        margin-right: 3em;
+    }
+#signin{
+    margin-right: 4em;
+}
+}
+
+@media (max-width: 1000px) {
+    .profile h6{
+        width: 50%;
+    }
+    .profile h4{
+        width: 60%;
+    }
+    .name{
+        margin-left: 1em;
+    }
+    .number2{
+        margin-left: -4rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .number{
+        margin-left: 3rem;
+        margin-right: 1rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .blognews{
+       width: 49%; 
+    }
+   .profile h6{
+    width: 25%;
+   }
+   .profile h4{
+    width: 25%;
+   }
+   #first{
+    width: 100%;
+    margin-bottom: 60em;
+   }
+   .number{
+    margin-right: 0;
+    margin-left: 0;
+   }
+   .number2{
+    margin-left: 0;
+   }
+   #second{
+    margin-top: 5em;
+   }
+   .story{
+    width: 49%;
+   }
+   footer{
+    margin-top: 40em;
+   }
+}
+
+@media (max-width: 500px) {
+   .blognews, .story{
+        width: 98%;
+   }
+   #first{
+    margin-bottom: 160em;
+   }
+   footer{
+    margin-top: 115em;
+   }
+   .searchBar{
+    width: 40%;
+   }
+}
+
+@media (min-width: 1201px) {
+    .blognews{
+        height: 50vh;
+        margin-bottom: 5rem;
+    }
+    .story{
+        height: 80vh;
+    }
+    #first{
+        margin-bottom: 10rem;
+    }
+    footer{
+        margin-top: 20rem;
+    }
+}
